@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
     if(newDinner.text.isNotEmpty()){
       dinner.text =newDinner.text.toString()
         array.add(newDinner.text.toString())
-          newDinner.text=null
+           newDinner.text=null
 
 
     }
