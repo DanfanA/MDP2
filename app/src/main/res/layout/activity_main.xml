@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="0dp"
+        android:src="@drawable/walmart_logo_colors" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="16dp"
+        />
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign in to your Account "
+        android:layout_marginLeft="20sp"
+        android:textSize="35sp"
+        android:layout_marginStart="20sp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email address(required) "
+        android:layout_marginLeft="20dp"
+        android:textSize="20dp"
+        />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="26dp"
+        />
+
+    <EditText
+        android:id="@+id/ed1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+
+        />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="26dp"
+        />
+
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Password(required) "
+        android:layout_marginLeft="20dp"
+        android:textSize="20dp"
+        />
+
+    <EditText
+        android:id="@+id/ed2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"/>
+
+
+    <TextView
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="forget password"
+        android:autoLink="all"
+        android:clickable="true"
+        android:layout_marginLeft="280sp"
+        />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign In"
+        android:background="#2196F3"
+        />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        />
+
+
+    <TextView
+        android:id="@+id/tv4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Don't have an account?"
+        android:gravity="center"
+
+        android:textSize="20dp"
+        />
+
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0dp"
+        android:text="Create New Account" />
+
+</LinearLayout>
