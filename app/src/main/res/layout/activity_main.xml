@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+     android:id="@+id/table1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:stretchColumns="0,1"
+    tools:context=".MainActivity">
+
+    <TableRow>
+        <EditText
+            android:id="@+id/et1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="text"
+            android:textSize="15dp"
+            android:hint="Enter Android Version"
+            />
+    </TableRow>
+
+    <TableRow>
+    <EditText
+
+            android:id="@+id/et2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="text"
+            android:textSize="15dp"
+            android:hint="Enter Android Name"
+            />
+</TableRow>
+
+    <TableRow>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:onClick="click"
+        android:text="Add"
+        android:textSize="16dp"/>
+   </TableRow>
+
+
+    <TableRow>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Version"
+            android:background="#eb4034"
+            android:layout_marginTop="16dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Code Name"
+            android:background="#eb4034"
+            android:layout_marginTop="16dp"/>
+
+
+    </TableRow>
+
+</TableLayout>
